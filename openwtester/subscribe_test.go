@@ -59,15 +59,7 @@ func TestSubscribeAddress(t *testing.T) {
 	var (
 		endRunning = make(chan bool, 1)
 		symbol     = "WICC"
-		//addrs      = map[string]string{
-		//	//"WkSFD9gYJ4GW6UFk32RnejhvT1dUjrvttc": "register", //3075359
-		//	//"WZa9hSDWcBubNTXs4ukQwobXdGrgo9SWq9": "miner",    //3075359
-		//	//"WVT9Tg4y64bv9ZWuNfnngX1eFY9VNbweor": "sender",   //3075692
-		//	"Wc8QqWavrv2RHXkUd1JAZPHFhw9f5rohMh": "sender", //3075692
-		//}
 		addrs      = map[string]string{
-			//"WkSFD9gYJ4GW6UFk32RnejhvT1dUjrvttc": "register", //3075359
-			//"WZa9hSDWcBubNTXs4ukQwobXdGrgo9SWq9": "miner",    //3075359
 			"WWHSP9t3pZJNcGvWEQdJ3jtR1zpu9xdWp8": "sender",   //3075692
 			"WTHZpXKN9XKyuJWANzLMLPvKky2wteL353": "reciver", //3075692
 		}
